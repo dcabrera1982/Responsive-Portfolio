@@ -222,22 +222,28 @@ body {
   /* Media Queries */
 
   @media screen and (max-width: 980px) {
-      nav a {
-          
+      #contact-form {
+        font-size: 10px;          
       }
 
   }
 
   @media screen and (max-width: 768px) {
 
-  }
-
-  @media screen and (max-width: 640px) {
     nav a {
         display: block;
         line-height: 25px;
+        text-align: center;
+        text-decoration: none;
     }
     nav {
+        float: left;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    
+    p {
         float: left;
     }
   }
